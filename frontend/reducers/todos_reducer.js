@@ -4,14 +4,38 @@ import { RECEIVE_TODO, RECEIVE_TODOS } from '../actions/todo_actions';
 const initialState = {
   1: {
     id: 1,
-    title: 'wash car',
-    body: 'with soap',
+    title: 'study History of Magic',
+    body: 'ask Hermione to explain Goblin Rebellion, borrow notes, finish essay',
     done: false
   },
   2: {
     id: 2,
-    title: 'wash dog',
-    body: 'with shampoo',
+    title: 'Potions essay',
+    body: 'review use of moonstones pg 175, look at notes on properties',
+    done: true
+  },
+  3: {
+    id: 3,
+    title: 'quidditch tryouts',
+    body: 'send out notice on Leeway #general channel, book pitch, borrow school brooms',
+    done: true
+  },
+  4: {
+    id: 4,
+    title: 'visit Hagrid',
+    body: 'go down to Hagrid\'s hut after quidditch tryouts',
+    done: true
+  },
+  5: {
+    id: 5,
+    title: 'detention',
+    body: 'go to Snape\'s office',
+    done: true
+  },
+  6: {
+    id: 6,
+    title: 'meeting with Dumbledore',
+    body: 'office password is cockroad cluster, 9pm on Tuesday',
     done: true
   },
 };

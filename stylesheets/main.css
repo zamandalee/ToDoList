@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+
+html, body {
+  height: 100%;
+}
+
+input, button, textarea {
+  border: 1px solid #777;
+  border-radius: 4px;
+}
+
+h1.title {
+  background: #d5deef;
+}
+
+.title {
+  padding-top: 12vh;
+  padding-bottom: 1.5vh;
+  padding-left: 5vw;
+  font-size: 4.5vh;
+}
+
+.content {
+  padding: 2vh 5vw;
+  padding-right: 8vw;
+  padding-bottom: 0;
+}
+
+li {
+  list-style: none;
+  padding: 2vh 0;
+  border-bottom: 1px solid #777;
+}
+
+.item-title {
+  font-size: 2.2vh;
+  padding-bottom: 1vh;
+}
+
+.item-body {
+  color: #999;
+}
+
+.new-todo {
+  padding: 5vh 0;
+}
+
+.new-todo h2 {
+  font-size: 2.8vh;
+  /* padding-bottom: 2vh; */
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-form label {
+  font-size: 2.2vh;
+  padding: 1.5vh 0;
+}
+
+.todo-form input, .todo-form textarea {
+  width: 50%;
+  margin-top: 0.8vh;
+  padding: 1.5vh 1vw;
+  font-size: 1.6vh;
+}
+
+.todo-form textarea {
+  height: 10%;
+}
+
+.todo-form input:focus, .todo-form textarea:focus {
+  background: #e3e7ef;
+}
+
+.todo-create-bttn {
+  width: 15%;
+  margin-top: 0.8vh;
+  padding: 1vh;
+}
+
+.todo-create-bttn:hover {
+  cursor: pointer;
+  background: #d5deef;
+  transform: scale(1.1);
+  transition: all .2s ease-in-out;
+}
