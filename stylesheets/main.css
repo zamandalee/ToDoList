@@ -85,6 +85,7 @@ li {
   width: 15%;
   margin-top: 0.8vh;
   padding: 1vh;
+  font-size: 1.5vh;
 }
 
 .todo-create-bttn:hover {
