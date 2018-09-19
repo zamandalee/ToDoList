@@ -51,6 +51,25 @@ li {
   color: #999;
 }
 
+/* TODO BUTTONS */
+
+.todo-bttns {
+  display: flex;
+  align-items: center;
+}
+
+.complete-bttn {
+  margin-right: 1.5vw;
+  padding: 0.5vh 1vw;
+  font-size: 1.3vh;
+  background: #e3e7ef;
+}
+
+.complete-bttn:hover {
+  cursor: pointer;
+  background: #d5deef;
+}
+
 .delete-bttn {
   border: none;
   font-size: 2vw;
@@ -98,12 +117,13 @@ li {
   margin-top: 0.8vh;
   padding: 1vh;
   font-size: 1.5vh;
+  background: #e3e7ef;
 }
 
 .todo-create-bttn:hover {
   cursor: pointer;
   background: #d5deef;
-  transform: scale(1.1);
+  transform: scale(1.06);
   transition: all .2s ease-in-out;
 }
 

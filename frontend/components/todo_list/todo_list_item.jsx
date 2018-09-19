@@ -9,7 +9,6 @@ class TodoListItem extends React.Component {
 
     this.handleDelete = this.handleDelete.bind(this);
     this.handleToggle = this.handleToggle.bind(this);
-    // this.doneText = this.doneText.bind(this);
   }
 
   handleDelete() {
@@ -32,8 +31,8 @@ class TodoListItem extends React.Component {
           <div className="item-title">{ todo.title }</div>
           <div className="item-body">{ todo.body }</div>
         </div>
-        <div>
-          <button onClick={ this.handleToggle }>{this.state.doneText}</button>
+        <div className="todo-bttns">
+          <button className="complete-bttn" onClick={ this.handleToggle }>{this.state.doneText}</button>
           <button className="delete-bttn" onClick={ this.handleDelete }>🗑️</button>
         </div>
       </li>);
