@@ -29,7 +29,6 @@ h1.title {
 .content {
   padding: 2vh 5vw;
   padding-right: 8vw;
-  padding-bottom: 0;
 }
 
 li {
@@ -69,6 +68,7 @@ li {
 .todo-form input, .todo-form textarea {
   width: 50%;
   margin-top: 0.8vh;
+  margin-left: 0.7vw;
   padding: 1.5vh 1vw;
   font-size: 1.6vh;
 }
@@ -93,4 +93,16 @@ li {
   background: #d5deef;
   transform: scale(1.1);
   transition: all .2s ease-in-out;
+}
+
+footer {
+  padding: 4vh 5vw;
+  padding-top: 0;
+  color: #777;
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  padding-right: 1vw;
 }
