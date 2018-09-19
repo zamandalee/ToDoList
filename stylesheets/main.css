@@ -31,10 +31,15 @@ h1.title {
   padding-right: 8vw;
 }
 
+/* INDIVIDUAL TODOS  */
+
 li {
   list-style: none;
   padding: 2vh 0;
   border-bottom: 1px solid #777;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .item-title {
@@ -45,6 +50,13 @@ li {
 .item-body {
   color: #999;
 }
+
+.delete-bttn {
+  border: none;
+  font-size: 2vw;
+}
+
+/* FORM */
 
 .new-todo {
   padding: 5vh 0;

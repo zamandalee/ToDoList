@@ -18,25 +18,25 @@ const initialState = {
     id: 3,
     title: 'quidditch tryouts',
     body: 'send out notice on Leeway #general channel, book pitch, borrow school brooms',
-    done: true
+    done: false
   },
   4: {
     id: 4,
     title: 'visit Hagrid',
     body: 'go down to Hagrid\'s hut after quidditch tryouts',
-    done: true
+    done: false
   },
   5: {
     id: 5,
     title: 'detention',
-    body: 'go to Snape\'s office',
+    body: 'go to Snape\'s office at 8pm on Friday',
     done: true
   },
   6: {
     id: 6,
     title: 'meeting with Dumbledore',
     body: 'office password is cockroad cluster, 9pm on Tuesday',
-    done: true
+    done: false
   },
 };
 
