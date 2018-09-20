@@ -108,7 +108,11 @@ li {
   /* height: 50%; */
 }
 
-.todo-form input:focus, .todo-form textarea:focus {
+.todo-form input:focus {
+  background: #e3e7ef;
+}
+
+.todo-form textarea:focus {
   background: #e3e7ef;
 }
 
