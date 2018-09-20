@@ -1,4 +1,4 @@
-const thunk = ({ dispatch, getState }) => next => action => {
+const thunkMiddleware = ({ dispatch, getState }) => next => action => {
   if (typeof action === 'function') {
     return action(dispatch, getState);
   } else {
@@ -6,4 +6,4 @@ const thunk = ({ dispatch, getState }) => next => action => {
   }
 };
 
-export default thunk;
+export default thunkMiddleware;
