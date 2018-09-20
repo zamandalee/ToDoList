@@ -1,24 +1,12 @@
-# README
+# ToDo List
+A minimalistic to-do list web app.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Technologies
+- Ruby on Rails
+- JavaScript: React/Redux
+- Webpack
+- HTML5/CSS3
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Functionality
+- To-do CRUD cycle
+- Update whether to-do item is completed or not

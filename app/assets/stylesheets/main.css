@@ -75,6 +75,10 @@ li {
   font-size: 2vw;
 }
 
+.delete-bttn:hover {
+  cursor: pointer;
+}
+
 /* FORM */
 
 .new-todo {
