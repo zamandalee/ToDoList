@@ -97,7 +97,7 @@ li {
 }
 
 .todo-form input, .todo-form textarea {
-  width: 50%;
+  width: 60%;
   margin-top: 0.8vh;
   margin-left: 0.7vw;
   padding: 1.5vh 1vw;
@@ -105,7 +105,7 @@ li {
 }
 
 .todo-form textarea {
-  height: 10%;
+  /* height: 50%; */
 }
 
 .todo-form input:focus, .todo-form textarea:focus {
